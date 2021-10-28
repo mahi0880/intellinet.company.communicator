@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkSpace\\microsoft-teams-apps-company-communicator\\Source\\CompanyCommunicator.Common\\Microsoft.Teams.Apps.CompanyCommunicator.Common.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkSpace\\microsoft-teams-apps-company-communicator\\Source\\CompanyCommunicator.Common\\Microsoft.Teams.Apps.CompanyCommunicator.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpace\\microsoft-teams-apps-company-communicator\\Source\\CompanyCommunicator.Common\\Microsoft.Teams.Apps.CompanyCommunicator.Common.csproj",
+        "projectName": "Microsoft.Teams.Apps.CompanyCommunicator.Common",
+        "projectPath": "C:\\WorkSpace\\microsoft-teams-apps-company-communicator\\Source\\CompanyCommunicator.Common\\Microsoft.Teams.Apps.CompanyCommunicator.Common.csproj",
+        "packagesPath": "C:\\Users\\Alpha\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpace\\microsoft-teams-apps-company-communicator\\Source\\CompanyCommunicator.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\WorkSpace\\microsoft-teams-apps-company-communicator\\Source\\NuGet.Config",
+          "C:\\Users\\Alpha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AdaptiveCards": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.12.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[3.22.0, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Polly.Contrib.WaitAndRetry": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
