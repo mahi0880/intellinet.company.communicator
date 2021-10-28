@@ -84,5 +84,17 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Bot
 
             return UserTeamsActivityHandler.TeamRenamedEventType.Equals(channelData.EventType, StringComparison.OrdinalIgnoreCase);
         }
+
+        /// <summary>
+        /// Reply back to the messager.
+        /// </summary>
+        /// <param name="turnContext">Context.</param>
+        /// <param name="cancellationToken">Token.</param>
+        /// <returns>AutoReply Message.</returns>
+        protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
+        {
+            string autoReplyMessage = "Thank you for your message. Please reach out to feedback@hearst.com with any questions. ";
+            await turnContext.SendActivityAsync(autoReplyMessage);
+        }
     }
 }
